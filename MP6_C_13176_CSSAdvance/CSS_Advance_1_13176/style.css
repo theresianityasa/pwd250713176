@@ -1,0 +1,188 @@
+
+body {
+    background-color: #e9eef5;
+    color: #14213d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    background: #ffffff linear-gradient(to right, #f3f6fa 200px, #ffffff 200px);
+}
+
+
+#branding {
+    position: relative;
+    height: 100px;
+    padding: 24px 30px;
+    background: #14213d;
+    color: #ffffff;
+}
+
+#branding h1 {
+    margin: 0 0 6px 0;
+    font-size: 26px;
+}
+
+#branding p {
+    margin: 0;
+    color: #f3f6fa;
+}
+
+#branding .badge {
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    padding: 6px 14px;
+    background: #fca311;
+    color: #14213d;
+    font-weight: bold;
+}
+
+#content {
+    width: 640px;
+    float: right;
+    padding: 20px 30px;
+}
+
+#content h2 {
+    margin: 10px 0 12px 0;
+    font-size: 18px;
+    color: #14213d;
+    border-bottom: 2px solid #fca311;
+    padding-bottom: 6px;
+}
+
+#mainNav {
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mainNav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainNav a {
+    display: block;
+    padding: 9px 0;
+    color: #14213d;
+    text-decoration: none;
+    border-bottom: 1px solid #d5deeb;
+}
+
+#mainNav a:hover {
+    color: #1f6feb;
+}
+
+
+#footer {
+    clear: both;
+    padding: 12px 30px;
+    background: #14213d;
+    color: #f3f6fa;
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#info .field {
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+#info label,
+#info .title {
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+#info .choices {
+    display: block;
+    margin-left: 165px;
+}
+
+#info .option {
+    display: block;
+    padding: 4px 0;
+}
+
+#info .option label {
+    float: none;
+    width: auto;
+    margin: 0 0 0 6px;
+    padding: 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input[type="text"], select, textarea {
+    width: 300px;
+    padding: 6px;
+    border: 1px solid #9aa7bd;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #1f6feb;
+    outline: none;
+}
+
+#info .buttons {
+    margin-left: 165px;
+    margin-bottom: 0;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 9px 22px;
+    margin-right: 8px;
+    border: 1px solid #14213d;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background: #14213d;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background: #fca311;
+    color: #14213d;
+}
+
+input[type="reset"] {
+    background: #ffffff;
+    color: #14213d;
+}

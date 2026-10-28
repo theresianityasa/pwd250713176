@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Pendaftaran Kompetisi Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+
+<div id="wrapper">
+
+   
+    <div id="branding">
+        <h1>Kompetisi Mahasiswa 2026</h1>
+        <p>Daftarkan tim atau diri Anda lewat formulir berikut.</p>
+        <span class="badge">Pendaftaran Dibuka</span>
+    </div>
+
+  
+    <div id="content">
+
+        <div id="mainContent">
+            <form action="" method="post" enctype="multipart/form-data">
+
+                <h2>Identitas Tim</h2>
+                <table>
+                    <tr class="regRow">
+                        <td class="label"><label for="tim">Nama Tim</label></td>
+                        <td class="text"><input type="text" id="tim" name="tim" size="30"/></td>
+                    </tr>
+                    <tr class="altRow">
+                        <td class="label"><label for="ketua">Ketua Tim</label></td>
+                        <td class="text"><input type="text" id="ketua" name="ketua" size="30"/></td>
+                    </tr>
+                    <tr class="regRow">
+                        <td class="label"><label for="anggota">Banyak Anggota</label></td>
+                        <td class="text"><input type="text" id="anggota" name="anggota" size="10"/></td>
+                    </tr>
+                    <tr class="altRow">
+                        <td class="label"><label for="prodi">Program Studi</label></td>
+                        <td class="text">
+                            <select id="prodi" name="prodi">
+                                <option>Informatika</option>
+                                <option>Sistem Informasi</option>
+                                <option>Teknik Industri</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+                <h2>Pilih Kompetisi</h2>
+                <table>
+                    <tr class="regRow">
+                        <td class="label">Jenis Peserta</td>
+                        <td class="text">
+                            <input type="radio" id="individu" name="kategori" value="Individu"/>
+                            <label for="individu">Individu</label>
+                            <input type="radio" id="kelompok" name="kategori" value="Kelompok"/>
+                            <label for="kelompok">Kelompok</label>
+                        </td>
+                    </tr>
+                    <tr class="altRow">
+                        <td class="label top">Cabang Lomba</td>
+                        <td class="text">
+                            <p>
+                                <input type="checkbox" id="program" name="bidang" value="Programming"/>
+                                <label for="program">Programming</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="design" name="bidang" value="UI/UX Design"/>
+                                <label for="design">UI/UX Design</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="tulis" name="bidang" value="Karya Tulis"/>
+                                <label for="tulis">Karya Tulis</label>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <h2>Detail Karya</h2>
+                <table>
+                    <tr class="regRow">
+                        <td class="label top"><label for="deskripsi">Ringkasan Karya</label></td>
+                        <td class="text"><textarea id="deskripsi" name="deskripsi" rows="8" cols="30"></textarea></td>
+                    </tr>
+                    <tr class="altRow">
+                        <td class="label"><label for="file">Unggah Karya</label></td>
+                        <td class="text"><input type="file" id="file" name="file" accept="image/gif, image/jpeg, image/png"/></td>
+                    </tr>
+                </table>
+
+                <div class="buttons">
+                    <input type="submit" value="Daftar"/>
+                    <input type="reset" value="Kosong"/>
+                </div>
+
+            </form>
+        </div>
+
+        
+        <div id="secondaryContent">
+            <h3>Ketentuan Singkat</h3>
+            <ul>
+                <li>Satu tim terdiri dari 1 sampai 5 orang.</li>
+                <li>Isi semua kolom dengan data yang benar.</li>
+                <li>Karya diunggah dalam format gambar (GIF, JPG, atau PNG).</li>
+                <li>Pendaftaran ditutup pada 30 November 2026.</li>
+            </ul>
+        </div>
+
+    </div>
+
+ 
+    <div id="mainNav">
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Info Lomba</a></li>
+            <li><a href="#">Panduan</a></li>
+            <li><a href="#">Pendaftaran</a></li>
+            <li><a href="#">Pengumuman</a></li>
+        </ul>
+    </div>
+
+   
+    <div id="footer">
+        <p>&#169; 2026 Panitia Kompetisi Mahasiswa</p>
+    </div>
+
+</div>
+</body>
+</html>
